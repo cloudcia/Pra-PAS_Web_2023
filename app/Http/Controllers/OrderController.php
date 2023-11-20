@@ -19,5 +19,6 @@ class OrderController extends Controller
         $order = Order::find($id);
 
         return view('orders.show', ['order' => $order]);
+    
     }
 }
